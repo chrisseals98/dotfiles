@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 countdown() {
-    local countdown=$1
+    local count=$1
     while [ $count -gt 0 ]; do
         echo -ne "\r$count.."
         sleep 1
