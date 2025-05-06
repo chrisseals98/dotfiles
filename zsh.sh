@@ -2,11 +2,10 @@
 countdown() {
     local count=$1
     while [ $count -gt 0 ]; do
-        echo -ne "\r$count.."
+        echo -ne "$count.."
         sleep 1
         ((count--))
     done
-    echo -ne "\rGO!\n"
 }
 
 echo "Starting zsh script..."
