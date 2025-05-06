@@ -10,7 +10,7 @@ countdown() {
 }
 
 echo "Starting zsh script..."
-countdown(3)
+countdown 3
 
 chsh -s /usr/bin/zsh
 
