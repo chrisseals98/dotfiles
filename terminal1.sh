@@ -13,4 +13,4 @@ countdown 3
 
 chsh -s /usr/bin/zsh
 
-echo "Finished changing shell to zsh. Please restart to run the terminal script."
+echo "Finished changing shell to zsh. Please restart then run terminal2.sh"
