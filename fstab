@@ -3,8 +3,10 @@
 
 # <file system> <dir> <type> <options> <dump> <pass>
 # /dev/nvme0n1p2
-UUID=4e854408-4ff8-4548-ac42-d981750a9bb7   /                       ext4   rw,relatime                                                                                             0 1 
+UUID=4e854408-4ff8-4548-ac42-d981750a9bb7   /                              ext4   rw,relatime                                                                                             0 1 
 
 # /dev/nvme0n1p1
-UUID=85B4-908B                              /boot                   vfat   rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro   0 2 
-UUID=239ce0bd-ea66-47c3-b13c-7229fb8375ee   /home/chris/Small_HDD   ext4   nofail,users,defaults                                                                                   0 2 
+UUID=85B4-908B                              /boot                          vfat   rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro   0 2 
+
+
+UUID=239ce0bd-ea66-47c3-b13c-7229fb8375ee   /home/chris/Drives/Small_HDD   ext4   nofail,users,defaults,exec                                                                              0 2 
