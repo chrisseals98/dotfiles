@@ -21,6 +21,6 @@ sudo pacman -Syu --noconfirm
 
 echo "Installing packages..."
 countdown 3
-sudo pacman -S --noconfirm sudo vim git zsh sshfs flatpak xdg-desktop-portal xdg-desktop-portal-kde fastfetch power-profiles-daemon avahi firefox steam discord kdegraphics-thumbnailers ffmpegthumbs ttf-meslo-nerd piper gimp partitionmanager ntfs-3g kio-admin
+sudo pacman -S --noconfirm sudo vim git zsh sshfs flatpak xdg-desktop-portal xdg-desktop-portal-kde fastfetch amd-ucode power-profiles-daemon avahi firefox steam discord kdegraphics-thumbnailers ffmpegthumbs ttf-meslo-nerd piper gimp partitionmanager ntfs-3g kio-admin
 
 echo "Packages installed!"
