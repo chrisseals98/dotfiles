@@ -6,6 +6,7 @@ countdown() {
         sleep 1
         ((count--))
     done
+    echo -e "\n"
 }
 
 echo "Updating system..."
