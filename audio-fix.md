@@ -10,3 +10,10 @@ This is what I had to do to stop the audio popping issue
 
         sudo mkinitcpio -P
 4. Then reboot!
+
+# Virtual Machine
+For virtual machine audio issues, I normally just modify this file:
+
+`/usr/share/wireplumber/wireplumber.conf.d/alsa-vm.conf`
+
+and set the two number values there to 4096 and 8192
