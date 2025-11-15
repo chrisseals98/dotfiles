@@ -8,7 +8,7 @@ countdown() {
     done
 }
 
-echo "Starting zsh script..."
+echo "Starting vm setup script..."
 countdown 3
 
 sudo pacman -S --noconfirm virtualbox-guest-utils
