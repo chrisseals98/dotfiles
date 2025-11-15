@@ -19,5 +19,3 @@ sudo systemctl enable vboxservice
 sudo systemctl start vboxservice
 
 echo "...Done!"
-
-return 0
